@@ -9,6 +9,7 @@
 
 .main {
     background: #181818;
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
 }
@@ -34,16 +35,6 @@
     text-decoration: none;
     text-transform: uppercase;
     width: 210px;
-}
-
-.banners {
-    height: 675px;
-    margin-top: 25px;
-}
-
-.banner-one {
-    height: 675px;
-    width: 100%;
 }
 
 .cards {
@@ -166,3 +157,37 @@
     font-weight: 300;
     margin-bottom: 0;
 }
+
+.banners-header {
+    height: 520px;
+    margin-top: 25px;
+    background-image: url('../images/teste-banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    width: 100%;
+    animation: banners-header 10s infinite linear;
+}
+
+@keyframes banners-header{
+    0% {
+        background-image: url('../images/teste-banner1.png');
+    }
+    25% {
+        background-image: url('../images/teste-banner1.png');
+    }
+
+    50% {
+        background-image: url('../images/teste-banner2.png');
+    }
+
+    75% {
+        background-image: url('../images/teste-banner2.png');
+    }
+
+    100% {
+        background-image: url('../images/teste-banner1.png');
+    }
+}
+
