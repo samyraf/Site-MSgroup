@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+}
+
+.main {
+    background: #181818;
+    height: 100%;
+    width: 100%;
+}
+
+.text-default {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content {
+    padding: 3% 5%;
+}
+
+.btn-produtos, .btn-produtos:hover {
+    align-items: center;
+    color: white;
+    background: #AA7647;
+    display: flex;
+    font-weight: 800;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 210px;
+}
+
+.banners {
+    height: 675px;
+    margin-top: 25px;
+}
+
+.banner-one {
+    height: 675px;
+    width: 100%;
+}
+
+.cards {
+    color: #ffff;
+    background: #0E3254 !important;
+    border-top: 5px solid #AA7647 !important;
+    border-radius: 0 !important;
+    padding: 20px 15px;
+    width: 32%;
+}
+
+.card-image {
+    align-items: center;
+    display: flex;
+    height: 70px;
+}
+
+.cards-title {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cards-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-more {
+    align-items: center;
+    background: #AA7647;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-saiba-mais, .btn-saiba-mais:hover {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.title-sobre {
+    color: #AA7647;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-sobre {
+    font-size: 17px;
+}
+
+.banner-mscopy {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid #AA7647;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-criptocopy {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid #AA7647;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-msbot{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid #AA7647;
+    height: 100%;
+    width: 100%;
+}
+
+.title-banner {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text-banner {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-assinar {
+    align-items: center;
+    background: #AA7647;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 375px;
+}
+
+.btn-quero-assinar, .btn-quero-assinar:hover {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+}
