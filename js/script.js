@@ -6,7 +6,7 @@ const sr = ScrollReveal({
     delay: 200,
 });
 
-sr.reveal(`.section-cards, .cards, .section-sobre`, {interval: 400});
+sr.reveal(`.section-cards, .cards, .section-sobre`, { interval: 400 });
 
 sr.reveal(`.section-mscopy, .section-msbot`, {
     origin: 'left',
@@ -21,3 +21,4 @@ sr.reveal(`.section-criptocopy`, {
     duration: 2000,
     interval: 500,
 })
+

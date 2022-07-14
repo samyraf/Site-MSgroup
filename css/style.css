@@ -24,6 +24,18 @@
     padding: 3% 5%;
 }
 
+.banners-header {
+    height: 520px;
+    margin-top: 25px;
+    background-image: url('../images/teste-banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    width: 100%;
+    animation: banners-header 10s infinite linear;
+}
+
 .btn-produtos, .btn-produtos:hover {
     align-items: center;
     color: white;
@@ -62,6 +74,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
+    height: 180px;
 }
 
 .btn-more {
@@ -70,7 +83,7 @@
     display: flex;
     height: 50px;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .btn-saiba-mais, .btn-saiba-mais:hover {
@@ -89,9 +102,10 @@
 
 .text-sobre {
     font-size: 17px;
+    line-height: 28px;
 }
 
-.banner-mscopy {
+.banner-mscopy, .banner-criptocopy, .banner-msbot {
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 10px solid #AA7647;
@@ -99,20 +113,19 @@
     width: 100%;
 }
 
-.banner-criptocopy {
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid #AA7647;
-    height: 100%;
-    width: 100%;
+.content-mscopy {
+    padding: 80px 40px 80px 80px;
+    width: 45%;
 }
 
-.banner-msbot{
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid #AA7647;
-    height: 100%;
-    width: 100%;
+.content-criptocopy {
+    padding: 80px 80px 80px 40px;
+    width: 45%;
+}
+
+.content-msbot {
+    padding: 145px 60px 110px 80px;
+    width: 45%;
 }
 
 .title-banner {
@@ -124,7 +137,7 @@
 .text-banner {
     font-size: 18px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 .btn-assinar {
@@ -158,17 +171,31 @@
     margin-bottom: 0;
 }
 
-.banners-header {
-    height: 520px;
-    margin-top: 25px;
-    background-image: url('../images/teste-banner1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: all .1s ease-in-out;
-    width: 100%;
-    animation: banners-header 10s infinite linear;
+/* carrousel videos */
+.carousel {
+    padding: 0 30px;
 }
+.container-videos {
+    margin-left: 45px !important;
+    width: 85%;
+}
+
+.swiper-slide {
+    margin-right: 30px !important;
+}
+
+.btn-prev {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.btn-next {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
 
 @keyframes banners-header{
     0% {
@@ -190,4 +217,73 @@
         background-image: url('../images/teste-banner1.png');
     }
 }
+
+@media screen and (min-width: 1450px) and (max-width: 2000px) {
+    .cards {
+        padding: 20px 35px;
+        width: 30%;
+    }
+
+    .swiper-slide {
+        width: 334px !important;
+    }
+
+    .container-videos {
+        margin-left: 80px !important;
+    }
+}
+
+@media screen and (min-width: 1550px) and (max-width: 1650px) {
+    .content-mscopy {
+        padding: 130px 80px 130px 80px;
+        width: 40%;
+    }
+
+    .content-criptocopy, .content-msbot {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1650px) and (max-width: 2000px) {
+    .content-mscopy {
+        padding: 130px 100px 130px 80px;
+        width: 35%;
+    }
+
+    .content-criptocopy {
+        padding: 130px 80px 130px 40px;
+        width: 35%;
+    }
+
+    .content-msbot {
+        padding: 175px 100px 150px 80px;
+        width: 35%;
+    }
+}
+
+/* banner header */
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    .banners-header {
+        height: 560px;
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .banners-header {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+    .banners-header {
+        height: 670px;
+    }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2000px) {
+    .banners-header {
+        height: 730px;
+    }
+}
+
 
