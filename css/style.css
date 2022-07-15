@@ -27,12 +27,12 @@
 .banners-header {
     height: 520px;
     margin-top: 25px;
-    background-image: url('../images/teste-banner1.png');
+    background-image: url('../images/banner-one.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all .1s ease-in-out;
     width: 100%;
+    transition: all .1s ease-in-out;
     animation: banners-header 10s infinite linear;
 }
 
@@ -196,25 +196,63 @@
     margin-right: 40px;
 }
 
+/* mobile */
+.banners-header-mobile {
+    background-image: url('../images/banner-one-mobile.png');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    animation: banners-header-mob 12s infinite linear;
+}
+
+.header-mobile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 @keyframes banners-header{
     0% {
-        background-image: url('../images/teste-banner1.png');
+        background-image: url('../images/banner-one.png');
     }
     25% {
-        background-image: url('../images/teste-banner1.png');
+        background-image: url('../images/banner-one.png');
     }
 
     50% {
-        background-image: url('../images/teste-banner2.png');
+        background-image: url('../images/banner-two.png');
     }
 
     75% {
-        background-image: url('../images/teste-banner2.png');
+        background-image: url('../images/banner-two.png');
     }
 
     100% {
-        background-image: url('../images/teste-banner1.png');
+        background-image: url('../images/banner-one.png');
+    }
+}
+
+@keyframes banners-header-mob{
+    0% {
+        background-image: url('../images/banner-one-mobile.png');
+    }
+    25% {
+        background-image: url('../images/banner-one-mobile.png');
+    }
+
+    50% {
+        background-image: url('../images/banner-two-mobile.png');
+    }
+
+    75% {
+        background-image: url('../images/banner-two-mobile.png');
+    }
+
+    100% {
+        background-image: url('../images/banner-one-mobile.png');
     }
 }
 
@@ -283,6 +321,70 @@
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
     .banners-header {
         height: 730px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .desktop {
+        display: none;
+    }
+
+    .text-default {
+        font-size: 14px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .btn-more {
+        margin-top: 0;
+    }
+
+    .text-sobre {
+        font-size: 15px;
+    }
+
+    .content-mscopy, .content-criptocopy,
+    .content-msbot {
+        padding: 70px 40px 50px 40px;
+        width: 100%;
+    }
+
+    .title-banner {
+        font-size: 30px;
+    }
+
+    .text-banner {
+        font-size: 15px;
+    }
+
+    .btn-assinar {
+        margin-top: 85px;
+        width: 100%;
+    }
+
+    .container-videos {
+        margin-left: 27px !important;
+        width: 73%;
+    }
+
+    .swiper-slide {
+        width: 197px !important;
+    }
+
+    .btn-next, .btn-prev {
+        margin: 0;
+    }
+
+    .text-footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 851px) {
+    .content-mobile {
+        display: none;
     }
 }
 
