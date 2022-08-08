@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #ffff;
 }
 
@@ -27,19 +27,20 @@
 .banners-header {
     height: 520px;
     margin-top: 25px;
-    background-image: url('../images/banner-one.png');
+    background-image: url("../images/banner-one.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     animation: banners-header 10s infinite linear;
 }
 
-.btn-produtos, .btn-produtos:hover {
+.btn-produtos,
+.btn-produtos:hover {
     align-items: center;
     color: white;
-    background: #AA7647;
+    background: #aa7647;
     display: flex;
     font-weight: 800;
     height: 50px;
@@ -51,8 +52,8 @@
 
 .cards {
     color: #ffff;
-    background: #0E3254 !important;
-    border-top: 5px solid #AA7647 !important;
+    background: #0e3254 !important;
+    border-top: 5px solid #aa7647 !important;
     border-radius: 0 !important;
     padding: 20px 15px;
     width: 32%;
@@ -75,18 +76,20 @@
     font-weight: 400;
     line-height: 24px;
     height: 180px;
+    text-align: justify;
 }
 
 .btn-more {
     align-items: center;
-    background: #AA7647;
+    background: #aa7647;
     display: flex;
     height: 50px;
     justify-content: center;
     margin-top: 50px;
 }
 
-.btn-saiba-mais, .btn-saiba-mais:hover {
+.btn-saiba-mais,
+.btn-saiba-mais:hover {
     color: #ffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -95,7 +98,7 @@
 }
 
 .title-sobre {
-    color: #AA7647;
+    color: #aa7647;
     font-size: 30px;
     font-weight: 400;
 }
@@ -103,12 +106,15 @@
 .text-sobre {
     font-size: 17px;
     line-height: 28px;
+    text-align: justify;
 }
 
-.banner-mscopy, .banner-criptocopy, .banner-msbot {
+.banner-mscopy,
+.banner-criptocopy,
+.banner-msbot {
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid #AA7647;
+    border-top: 10px solid #aa7647;
     height: 100%;
     width: 100%;
 }
@@ -138,11 +144,12 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
+    text-align: justify;
 }
 
 .btn-assinar {
     align-items: center;
-    background: #AA7647;
+    background: #aa7647;
     display: flex;
     height: 50px;
     justify-content: center;
@@ -150,7 +157,8 @@
     width: 375px;
 }
 
-.btn-quero-assinar, .btn-quero-assinar:hover {
+.btn-quero-assinar,
+.btn-quero-assinar:hover {
     color: #ffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -160,7 +168,7 @@
 
 .videos {
     background-color: #001529;
-    border-bottom: 10px solid #AA7647;
+    border-bottom: 10px solid #aa7647;
     height: 400px;
 }
 
@@ -198,13 +206,13 @@
 
 /* mobile */
 .banners-header-mobile {
-    background-image: url('../images/banner-one-mobile.png');
+    background-image: url("../images/banner-one-mobile.png");
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     animation: banners-header-mob 12s infinite linear;
 }
 
@@ -213,46 +221,45 @@
     padding-bottom: 20px;
 }
 
-
-@keyframes banners-header{
+@keyframes banners-header {
     0% {
-        background-image: url('../images/banner-one.png');
+        background-image: url("../images/banner-one.png");
     }
     25% {
-        background-image: url('../images/banner-one.png');
+        background-image: url("../images/banner-one.png");
     }
 
     50% {
-        background-image: url('../images/banner-two.png');
+        background-image: url("../images/banner-two.png");
     }
 
     75% {
-        background-image: url('../images/banner-two.png');
+        background-image: url("../images/banner-two.png");
     }
 
     100% {
-        background-image: url('../images/banner-one.png');
+        background-image: url("../images/banner-one.png");
     }
 }
 
-@keyframes banners-header-mob{
+@keyframes banners-header-mob {
     0% {
-        background-image: url('../images/banner-one-mobile.png');
+        background-image: url("../images/banner-one-mobile.png");
     }
     25% {
-        background-image: url('../images/banner-one-mobile.png');
+        background-image: url("../images/banner-one-mobile.png");
     }
 
     50% {
-        background-image: url('../images/banner-two-mobile.png');
+        background-image: url("../images/banner-two-mobile.png");
     }
 
     75% {
-        background-image: url('../images/banner-two-mobile.png');
+        background-image: url("../images/banner-two-mobile.png");
     }
 
     100% {
-        background-image: url('../images/banner-one-mobile.png');
+        background-image: url("../images/banner-one-mobile.png");
     }
 }
 
@@ -277,7 +284,8 @@
         width: 40%;
     }
 
-    .content-criptocopy, .content-msbot {
+    .content-criptocopy,
+    .content-msbot {
         width: 40%;
     }
 }
@@ -345,7 +353,8 @@
         font-size: 15px;
     }
 
-    .content-mscopy, .content-criptocopy,
+    .content-mscopy,
+    .content-criptocopy,
     .content-msbot {
         padding: 70px 40px 50px 40px;
         width: 100%;
@@ -373,7 +382,8 @@
         width: 197px !important;
     }
 
-    .btn-next, .btn-prev {
+    .btn-next,
+    .btn-prev {
         margin: 0;
     }
 
@@ -387,5 +397,3 @@
         display: none;
     }
 }
-
-
