@@ -373,13 +373,18 @@
         width: 100%;
     }
 
+    .carousel {
+        padding: 0 10px;
+    }
+
     .container-videos {
-        margin-left: 27px !important;
-        width: 73%;
+        margin-left: 10px !important;
+        width: 83%;
     }
 
     .swiper-slide {
         width: 197px !important;
+        margin-right: 56px !important;
     }
 
     .btn-next,
